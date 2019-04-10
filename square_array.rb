@@ -5,7 +5,7 @@ def square_array(array)
   while index < array.size
     y = x * x
     newArray[index] = y
-    index++
+    index += 1
   end
     
   return newArray
