@@ -2,7 +2,7 @@ def square_array(array)
   newArray = []
   newArray.size = array.size
   index = 0
-  for |x| in array
+  while index < array.size
     y = x * x
     newArray[index] = y
     index++
